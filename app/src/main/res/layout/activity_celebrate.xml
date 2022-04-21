@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/celebrate2">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Select type:😇"
+        android:textColor="#F3EBEB"
+        android:textColorHighlight="#0DC59A"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/gradient"
+        android:text="Previous biryhday"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/shilpo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/gradient"
+        android:text="😇😉😌🙂শিল্পকর্ম"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/others"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/gradient"
+        android:text="others💖"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+
+</RelativeLayout>

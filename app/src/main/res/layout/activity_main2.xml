@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weall">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:text=" Let's increase the value of age variable  "
+        android:textColor="#F4F0F0"
+        android:textColorHighlight="#0DC59A"
+        android:textSize="25sp" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/gradient"
+        android:text="memory"
+        android:textColor="#050505"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/Wish"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/gradient"
+        android:text="Wish her"
+        android:textColor="#050505"
+        android:textSize="18dp" />
+
+
+
+
+</RelativeLayout>

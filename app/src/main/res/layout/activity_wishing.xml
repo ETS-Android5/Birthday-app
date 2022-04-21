@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackbackground"
+   >
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        />
+    <Button
+        android:id="@+id/gift"
+        android:layout_width="190dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="190dp"
+        android:background="@drawable/button_close"/>
+
+
+</RelativeLayout>
